@@ -28,3 +28,19 @@
   components:
   - type: CartridgeAmmo
     proto: Bullet50_magnumFMJ
+
+- type: entity
+  id: Cartridge50_magnumRubber
+  name: cartridge (.50 magnum Rubber)
+  parent: BaseCartridge50_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet50_magnumRubber
+
+- type: entity
+  id: Cartridge50_magnumPractice
+  name: cartridge (.50 magnum Practice)
+  parent: BaseCartridge50_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet50_magnumPractice

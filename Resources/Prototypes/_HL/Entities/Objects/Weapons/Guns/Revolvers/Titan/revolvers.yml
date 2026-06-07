@@ -23,6 +23,8 @@
     - Belt
   - type: AmmoCounter
   - type: Gun
+    soundGunShot:
+      path: /Audio/_Starlight/Weapons/Guns/Gunshots/deagle.ogg
     selectedMode: SemiAuto
     fireRate: 0.5
     availableModes:
@@ -35,8 +37,6 @@
   - type: GunWieldBonus
     minAngle: -0 # because GunRequiresWield
     maxAngle: -0
-    soundGunShot:
-      path: /Audio/_Starlight/Weapons/Guns/Gunshots/deagle.ogg
   - type: ContainerContainer
     containers:
       revolver-ammo: !type:Container
@@ -79,9 +79,6 @@
     maxAngle: -0
   - type: Gun
     fireRate: 0.5
-    ammoWhitelist:
-      tags:
-      - Cartridge50_magnumFMJ # Only tagging the FMJ rounds until I better understand how to program additional round types.
     soundGunshot: /Audio/_Starlight/Weapons/Guns/Gunshots/deagle.ogg
   - type: RevolverAmmoProvider
     capacity: 5
@@ -117,9 +114,6 @@
     sprite: _HL/Objects/Weapons/Guns/Revolvers/BoneCollector.rsi
   - type: Gun
     fireRate: 0.7
-    ammoWhiteList:
-      tags:
-      - Cartridge50_magnumFMJ
     soundGunshot: /Audio/_Starlight/Weapons/Guns/Gunshots/deagle.ogg
   - type: RevolverAmmoProvider
     capacity: 5
@@ -159,9 +153,6 @@
     maxAngle: 50
     angleIncrease: 5
     angleDecay: 2
-    ammoWhitelist:
-      tags:
-      - Cartridge50_magnumFMJ
     soundGunshot: /Audio/_Starlight/Weapons/Guns/Gunshots/deagle.ogg
   - type:  RevolverAmmoProvider
     capacity: 5
